@@ -92,7 +92,7 @@ class App extends Component {
 						}
 						style={{ display: "inline" }}>
 						<span
-							className='iconify language-icon mr-5'
+							className='d-none iconify language-icon mr-5'
 							data-icon='twemoji-flag-for-flag-united-kingdom'
 							data-inline='false'
 							id={window.$primaryLanguageIconId}></span>
@@ -106,7 +106,7 @@ class App extends Component {
 						}
 						style={{ display: "inline" }}>
 						<span
-							className='iconify language-icon'
+							className='d-none iconify language-icon'
 							data-icon='twemoji-flag-for-flag-poland'
 							data-inline='false'
 							id={window.$secondaryLanguageIconId}></span>
@@ -116,10 +116,10 @@ class App extends Component {
 					resumeBasicInfo={this.state.resumeData.basic_info}
 					sharedBasicInfo={this.state.sharedData.basic_info}
 				/>
-				<Projects
+				{/* <Projects
 					resumeProjects={this.state.resumeData.projects}
 					resumeBasicInfo={this.state.resumeData.basic_info}
-				/>
+				/> */}
 				<Skills
 					sharedSkills={this.state.sharedData.skills}
 					resumeBasicInfo={this.state.resumeData.basic_info}

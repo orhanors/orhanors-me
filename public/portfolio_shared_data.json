@@ -16,6 +16,16 @@
 				"name": "linkedin",
 				"url": "https://www.linkedin.com/in/orhanors/",
 				"class": "fab fa-linkedin"
+			},
+			{
+				"name": "medium",
+				"url": "https://orhanors.medium.com/",
+				"class": "fab fa-medium"
+			},
+			{
+				"name": "docker hub",
+				"url": "https://hub.docker.com/u/orhanors",
+				"class": "fab fa-docker"
 			}
 		],
 		"image": "myProfile.jpeg"
